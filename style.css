@@ -45,6 +45,12 @@ button {
     font-weight: bold;
 }
 
+q {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
 .hero-main-text {
     font-weight: 900;
     font-size: 48px;
@@ -60,11 +66,12 @@ button {
     font-size: 24px;
 }
 
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 100px;
+   
 }
 
 .header-links {
@@ -73,28 +80,37 @@ button {
     justify-content: flex-end;
 }
 
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .title-container {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: center;
     gap: 8px;
+    margin: 100px 0px;
 }
 
 .title {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: stretch;
     gap: 8px;
     padding-right: 32px;
 }
 
 .placeholder-img {
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #6d737e;
-    width: 700px;
+    width: 950px;
+    height: 150px;
     padding: 40px;
-    margin: 10px;
+    text-align:center;
 }
 
 .dark-background,
@@ -111,6 +127,17 @@ button {
 .quote-background {
     background-color: #e5e7eb;
     color: black;
+}
+
+.quote-section {
+    margin: 75px 64px;
+    text-align: justify;
+}
+
+.quote-section p {
+    text-align: right;
+    font-weight: bold;
+    padding: 16px 0px;
 }
 
 .regular-background {
@@ -131,6 +158,7 @@ button {
     text-align: center;
     align-items: center;
     justify-content: space-between;
+    padding: 32px;
     
 }
 
@@ -141,4 +169,22 @@ button {
     max-width:min-content;
     gap: 12px;
     
+}
+
+.cta-section{
+    display: flex;
+    gap: 8px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sign-up{
+    border: 2px solid #ffffff;
+    padding: 10px 0;
+    text-align: center;
 }
